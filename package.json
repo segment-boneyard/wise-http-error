@@ -1,0 +1,15 @@
+{
+  "name": "wise-http-error",
+  "repository": "git://github.com/segmentio/wise-http-error.git",
+  "description": "A more interesting wrapper around segmentio/http-error.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "dependencies": {
+    "http-error": "git://github.com/segmentio/http-error#0.2.0",
+    "to-pascal-case": "0.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
